@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jose Fraino" />
+    <meta
+      name="description"
+      content="Portafolio de Jose Fraino para desarrollo web"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Título-->
+    <title>Portafolio Web |José Fraino</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="image/icono2.png" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!--Iconos de bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Dirt&family=Shantell+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="touchstart.js"></script>
+  </head>
+
+  <body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="image/icono2.png" width="50" alt="Logo"/>
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#miInfo">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencias">Experiencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contácto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Seccion hero-->
+    <section id="inicio" class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-perfil"
+          src="image/desarrollador2.svg"
+          alt="Foto de perfil"
+        />
+        <h1>Hola, soy José Fraino</h1>
+        <h5>Estudiante de Ingeniería Informática</h5>
+      </div>
+      <div
+        class="hero-inferior d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="image/lenguajes2.png"
+          alt=""
+        />
+        <!-- <img class="hero-inferior-imagen2 img-fluid" src="image/img-secundaria.jpg" alt=""> -->
+      </div>
+    </section>
+
+    <!--Sobre mí-->
+    <section id="miInfo" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <div class="row">
+          <div class=" columna col-12 col-md-6 ">
+            <h2 class="seccion-titulo">Sobre mí</h2>
+            <p class="seccion-texto">
+              Actualmente estudio el 9no trimestre de Ingenieria Informática en
+              la Universidad Rafael Belloso Chacín. He realizado varios
+              proyectos y prácticas de programación a lo largo de la carrera,
+              demostrando mi interés y habilidad por este campo.
+            </p>
+            <p class="seccion-texto">
+              He tenido la oportunidad adquirir conocimientos por parte de
+              profesores y compañeros en los trabajos de equipo, asi como
+              también de manera didacta por internet.
+            </p>
+          </div>
+          <div class=" columna col-12 col-md-6">
+            <img src="image/logo-urbe1.jpg"> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Experiencia-->
+    <section id="experiencias" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <h2 class="seccion-titulo">Experiencias</h2>
+        <div class="row">
+          <!--Desarrollo Web-->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p class="seccion-texto">
+              He trabajado con html, css y javascript básico, incluyendo el
+              framework de bootstrap 5.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Javascript</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+            </div>
+          </div>
+          <!--Estudiante-->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p class="seccion-texto">
+              He realizado algunas aplicaciones en c++, python, c# y java, obteniendo los conocimientos básicos.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">C++</span>
+              <span class="badge text-bg-primary">C#</span>
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Java</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Proyectos-->
+    <section
+      id="proyectos"
+      class="proyectos-recientes seccion-clara d-flex flex-column"
+    >
+      <h2 class="seccion-titulo texto-negro">Proyectos recientes</h2>
+      <h3 class="seccion-descripcion">
+        Algunos de los proyectos de diseño web para la universidad en los que he
+        trabajado
+      </h3>
+      <!--Galeria de proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyecto 1-->
+          <div id="proyecto1" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Centro Comercial Sambil</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/Website-Jos-Fraino" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://centrosambil.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 2-->
+          <div id="proyecto2" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Página web sobre Venezuela</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/Landing-Page-JoseFraino" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://historia-de-venezuela.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto 3-->
+          <div id="proyecto3" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Franquicias Susys Cookies</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/Cookies-page" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://susys-cookies.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto 4-->
+          <div id="proyecto4" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Página sobre los 80s</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/Retro-page" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mundo-retro.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 5-->
+          <div id="proyecto5" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Pagina sobre moda: Naútica</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/Nautica-page" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://nautica-site.000webhostapp.com/#thistoria" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 6-->
+          <div id="proyecto6" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Tienda de mascotas: ShopAnimal</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/tienda-mascota" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://shopanimal.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 7-->
+          <div id="proyecto7" class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="image/proyecto1.png" />
+              <div class="overlay">
+                <p>Página BarberStyle</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jfrainor/barber-style" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://barbstyle.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-browser-chrome"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contáctos-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container text-center rectangulo d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">Contácto</div>
+            <div class="col-12 col-md-4 descripción">
+              <p>Mi correo electrónico: </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:josefraino12@gmail.com">
+                <button type="button">
+                  Gmail
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="image/icono2.png"
+        alt="Logo del portafolio"
+      />
+      <p class="footer-texto text-center">
+        "Si puedes imaginarlo,<br />puedes programarlo"
+      </p>
+      <p class="footer-autor text-center">Alejandro Taboada Sánchez</p>
+      <br>
+      
+      <div
+        class="iconos-redes d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://twitter.com/FrainoJg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+
+        <a
+          href="https://github.com/jfrainor"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/jose-fraino-1523a522a/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/fraino_jg/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="derechos-autor">Creado por José Fraino - 2023 &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
